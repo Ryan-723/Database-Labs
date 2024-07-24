@@ -1,0 +1,164 @@
+﻿F22 PROG8080 Section 2
+Exercise 4
+ 
+Student Name: 
+ 
+Nov 26 2023  3:23AM
+ 
+ 
+--- Question 1 ---
+
+(122 rows affected)
+NumberOfRows
+------------
+122
+
+(1 row affected)
+
+ 
+--- Question 2 ---
+
+(25 rows affected)
+Total Number of rows in InvoiceBalancesNDG
+------------------------------------------
+25
+
+(1 row affected)
+
+ 
+--- Question 3 ---
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+114         86          4591178                                            2022-09-01  9345.60               0.00                  0.00                  1           2022-10-01     NULL
+
+(1 row affected)
+
+ 
+--- Question 4 ---
+Msg 545, Level 16, State 1, Line 55
+Explicit value must be specified for identity column in table 'InvoiceBalancesNDG' either when IDENTITY_INSERT is set to ON or when a replication user is inserting into a NOT FOR REPLICATION identity column.
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+
+(0 rows affected)
+
+ 
+--- Question 5 ---
+
+(0 rows affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+
+(0 rows affected)
+
+ 
+--- Question 6 ---
+
+(5 rows affected)
+InvoiceID   InvoiceNumber                                      VendorID    InvoiceTotal          CreditTotal
+----------- -------------------------------------------------- ----------- --------------------- ---------------------
+102         P-0608                                             110         20551.18              1290.00
+119         ZXA-080                                            34          14092.59              0.00
+120         ZXA-080                                            34          14092.59              0.00
+121         ZXA-080                                            34          14092.59              0.00
+122         ZXA-080                                            34          14092.59              0.00
+
+(5 rows affected)
+
+ 
+--- Question 7 ---
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+89          72          39104                                              2020-01-10  85.31                 0.00                  0.00                  3           2020-02-09     NULL
+94          123         963253264                                          2020-01-18  52.25                 0.00                  0.00                  3           2020-02-17     NULL
+98          83          31361833                                           2020-01-21  579.42                0.00                  0.00                  2           2020-02-10     NULL
+99          123         263253268                                          2020-01-21  59.97                 0.00                  0.00                  3           2020-02-20     NULL
+100         123         263253270                                          2020-01-22  67.92                 0.00                  0.00                  3           2020-02-21     NULL
+101         123         263253273                                          2020-01-22  30.75                 0.00                  0.00                  3           2020-02-21     NULL
+102         110         P-0608                                             2020-01-23  20551.18              0.00                  1290.00               3           2020-02-22     NULL
+105         106         9982771                                            2020-01-24  503.20                0.00                  0.00                  3           2020-02-23     NULL
+110         80          134116                                             2020-01-28  90.36                 0.00                  0.00                  2           2020-02-17     NULL
+112         110         0-2436                                             2020-01-31  10976.06              0.00                  0.00                  3           2020-02-29     NULL
+113         37          547480102                                          2020-02-01  224.00                0.00                  0.00                  3           2020-02-29     NULL
+115         34          ZXA-080                                            2020-03-01  14092.59              0.00                  90.00                 3           2020-03-31     NULL
+116         34          ZXA-080                                            2020-03-01  14092.59              0.00                  90.00                 3           2020-03-31     NULL
+117         34          ZXA-080                                            2020-03-01  14092.59              0.00                  90.00                 3           2020-03-31     NULL
+118         34          ZXA-080                                            2020-03-01  14092.59              0.00                  90.00                 3           2020-03-31     NULL
+119         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+120         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+121         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+122         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+123         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+124         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+125         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+126         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+127         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+128         34          ZXA-080                                            2020-03-01  14092.59              0.00                  0.00                  3           2020-03-31     NULL
+
+(25 rows affected)
+
+ 
+--- Question 8 ---
+Total Count before Deleting
+---------------------------
+122
+
+(1 row affected)
+
+(114 rows affected)
+
+Total Count after Deleting
+--------------------------
+8
+
+(1 row affected)
+
+ 
+--- Question 9 ---
+
+(4 rows affected)
+More invoices than expected. Deletions rolled back.
+Number of FedEx invoices
+------------------------
+4
+
+(1 row affected)
+
+ 
+--- Question 10 ---
+Number of Invoices
+------------------
+128
+
+(1 row affected)
+
+Number of InvoiceLineItems
+--------------------------
+146
+
+(1 row affected)
+
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+Number of Invoices
+------------------
+129
+
+(1 row affected)
+
+Number of InvoiceLineItems
+--------------------------
+148
+
+(1 row affected)
+
+
+Completion time: 2023-11-26T03:23:41.7854341-05:00

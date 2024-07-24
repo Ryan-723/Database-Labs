@@ -1,0 +1,39 @@
+﻿F23 PROG8080 Section 2
+Assignment 4
+ 
+
+Dec  2 2023 11:05PM
+ 
+Dropping existing database
+
+(6 rows affected)
+
+(5 rows affected)
+
+(15 rows affected)
+
+(4 rows affected)
+
+(1 row affected)
+
+(2 rows affected)
+
+(4 rows affected)
+PartNumber                                         SupplierID  PartTypeID  PartDescription                                                                                      FirstName                                          LastName                                           Email                                                                                                StreetNumber                                       StreetName                                                                                           City                                               Province                                           Country                                            PostalCode           Phone                                              PurchaseDate UnitPrice                               Quantity    extended_amount
+-------------------------------------------------- ----------- ----------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------- -------------------------------------------------- ------------ --------------------------------------- ----------- ---------------------------------------
+DL1010                                             1           1           Dell Optiplex 1010                                                                                   Joey                                               Peralta                                            JPeralta1234@conestogac.on.ca                                                                        123 King St                                        Waterloo                                                                                             Waterloo                                           ON                                                 Canada                                             N2N 3C1              519-555-1234                                       2022-10-31   40.00                                   25          1000.00
+HPM270                                             2           6           HP 27-inch Monitor                                                                                   May                                                June                                               MJune1111@conestogac.on.ca                                                                           456 Northmanor Cres                                Waterloo                                                                                             Waterloo                                           ON                                                 Canada                                             N2N 4E3              648-333-9874                                       2022-11-10   120.00                                  20          2400.00
+LEN101                                             1           4           Lenovo 101-Key Computer Keyboard                                                                     Troy                                               Abed                                               TAbed1111@conestogac.on.ca                                                                           001 Westvale Dr                                    Waterloo                                                                                             Waterloo                                           ON                                                 Canada                                             N2N 9O8              519-111-6541                                       2022-11-10   7.00                                    50          350.00
+HPM220                                             3           6           HP 22-inch Monitor                                                                                   Vinh                                               hniv                                               VHniv1111@conestogac.on.ca                                                                           999 Westvale Cres                                  Waterloo                                                                                             Waterloo                                           ON                                                 Canada                                             N2N 6Y6              648-222-1234                                       2022-11-12   45.00                                   30          1350.00
+
+(4 rows affected)
+
+BundleName                                         total_cost
+-------------------------------------------------- ---------------------------------------
+Dell Standard bundle                               645.00
+HP Eco bundle                                      364.00
+
+(2 rows affected)
+
+
+Completion time: 2023-12-02T23:05:19.4248099-05:00
